@@ -1,0 +1,560 @@
+.home, .about, .service, .portfolio, .resume, .contact {
+    cursor: pointer;
+}
+
+/* Style for the navigation links */
+.navigation .home, .navigation .about, .navigation .service, 
+.navigation .portfolio, .navigation .resume, .navigation .contact {
+  padding: 10px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+/* Hover effect: turns text yellow */
+.navigation .home:hover, .navigation .about:hover, 
+.navigation .service:hover, .navigation .portfolio:hover, 
+.navigation .resume:hover, .navigation .contact:hover {
+  color: #facc15;
+}
+
+/* Active state: turns text yellow */
+.navigation .home.active, .navigation .about.active, 
+.navigation .service.active, .navigation .portfolio.active, 
+.navigation .resume.active, .navigation .contact.active {
+  color: #facc15;
+}
+
+.home {
+    position: relative;
+    text-transform: uppercase;
+    /* color: #facc15; */
+    transition: color 0.3s ease;
+
+}
+.about {
+    position: relative;
+    text-transform: uppercase;
+}
+.home-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 27px;
+}
+.navigation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.navigation-wrapper {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 16px 8px;
+    font-size: 16px;
+    color: #9ca3af;
+}
+.hello-everyone {
+    position: relative;
+    line-height: 27px;
+}
+.im-luthfi-ananda {
+    position: relative;
+    line-height: 64px;
+    font-family: 'Lexend Deca';
+}
+.a-dedicated-digital {
+    margin: 0;
+    color: #d1d5db;
+}
+.a-dedicated-digital-container {
+    position: relative;
+    font-size: 16px;
+    line-height: 27px;
+    color: #d1d5db;
+}
+.im-luthfi-ananda-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px;
+    font-size: 42px;
+    color: #f3f4f6;
+}
+.hit-me-up-wrapper {
+    border-radius: 100px;
+    background-color: #facc15;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 8px 20px;
+    font-size: 16px;
+    color: #000;
+}
+.hello-everyone-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 24px;
+}
+.frame-child {
+    width: 427px;
+    position: relative;
+    border-radius: 24px;
+    height: 427px;
+    object-fit: cover;
+}
+.frame-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 199px;
+}
+.herosection {
+    align-self: stretch;
+    background-color: #111827;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-start; */
+    align-items: center;
+    justify-content: flex-start;
+    padding: 96px 165px;
+    font-size: 36px;
+    color: #facc15;
+}
+.about-icon {
+    width: 475px;
+    position: relative;
+    height: 475px;
+    object-fit: cover;
+}
+.me {
+    color: #facc15;
+}
+.my-skills-include-planning-soc-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.frame-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 16px;
+    color: #d1d5db;
+}
+.about-me-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 32px;
+}
+.aboutme1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 96px 0px;
+    gap: 89px;
+}
+.frame-icon {
+    width: 40px;
+    position: relative;
+    height: 40px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.digital-marketing {
+    position: relative;
+    line-height: 41px;
+}
+.there-are-many-container {
+    width: 286px;
+    position: relative;
+    font-size: 16px;
+    line-height: 27px;
+    color: #6b7280;
+    display: inline-block;
+}
+.digital-marketing-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 16px;
+}
+.frame-parent1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 32px;
+}
+.frame-div {
+    border-radius: 12px;
+    background-color: #020617;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 32px;
+}
+.frame-icon1 {
+    width: 40px;
+    position: relative;
+    height: 37.8px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.frame-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 30px;
+    text-align: center;
+    font-size: 26px;
+}
+.frame-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 56px;
+}
+.myservice {
+    background-color: #111827;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 96px 165px;
+}
+.there-are-many-container3 {
+    position: relative;
+    font-size: 16px;
+    line-height: 27px;
+    color: #9ca3af;
+}
+.my-portfolio-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 24px;
+}
+.frame-item {
+    width: 562px;
+    position: relative;
+    border-radius: 12px;
+    height: 565px;
+    object-fit: cover;
+}
+.frame-inner {
+    width: 256px;
+    position: relative;
+    border-radius: 12px;
+    height: 268px;
+    object-fit: cover;
+}
+.rectangle-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 29px;
+}
+.frame-parent4 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 31px;
+}
+.myportfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 96px 0px;
+    gap: 80px;
+    text-align: center;
+}
+.my {
+    white-space: pre-wrap;
+}
+.experiences {
+    color: #eab308;
+}
+.there-are-many-container4 {
+    width: 730px;
+    position: relative;
+    font-size: 16px;
+    line-height: 27px;
+    font-family: 'Lexend Deca';
+    color: #9ca3af;
+    display: inline-block;
+}
+.figma {
+    position: relative;
+    font-size: 16px;
+    line-height: 27px;
+    color: #d1d5db;
+    text-align: left;
+}
+.uxui-designer-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 4px;
+}
+.there-are-many-container5 {
+    width: 286px;
+    position: relative;
+    line-height: 27px;
+    display: inline-block;
+    flex-shrink: 0;
+}
+.there-are-many-variations-of-p-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 8px;
+    text-align: left;
+    font-size: 16px;
+    color: #6b7280;
+}
+.frame-parent7 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px;
+    text-align: center;
+    font-size: 26px;
+    color: #eab308;
+}
+.june-2002-2020-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px;
+}
+.there-are-many-container6 {
+    width: 272px;
+    position: relative;
+    font-size: 16px;
+    line-height: 27px;
+    color: #6b7280;
+    text-align: left;
+    display: inline-block;
+}
+.frame-parent8 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+    text-align: center;
+    font-size: 26px;
+    color: #eab308;
+}
+.frame-parent6 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 29px;
+    font-size: 20px;
+    color: #d1d5db;
+    font-family: 'Lexend Deca';
+}
+.experience1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 80px;
+}
+.experience {
+    background-color: #191d28;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 85px 149px;
+    font-family: Arvo;
+}
+.contact-me-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 200px;
+}
+.there-are-many8 {
+    width: 685px;
+    position: relative;
+    font-size: 16px;
+    line-height: 27px;
+    color: #d1d5db;
+    display: inline-block;
+    padding-bottom: 50px;
+}
+.address- {
+    font-family: 'Lexend Deca';
+    color: #eab308;
+}
+.address-23-container {
+    position: relative;
+    line-height: 41px;
+    color: #d1d5db;
+}
+.span {
+    color: #d1d5db;
+}
+.address-23-s-80-road-benedi-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+}
+.group-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #1f2937;
+    width: 350px;
+    height: 63px;
+}
+.name {
+    position: absolute;
+    top: 11px;
+    left: 18px;
+    line-height: 41px;
+}
+.group-div {
+    width: 350px;
+    position: relative;
+    height: 63px;
+}
+.group-item {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #1f2937;
+    width: 540px;
+    height: 166px;
+}
+.message {
+    position: absolute;
+    top: 10px;
+    left: 18px;
+    line-height: 41px;
+}
+.rectangle-parent1 {
+    width: 540px;
+    position: relative;
+    height: 166px;
+}
+.contact-us-wrapper {
+    border-radius: 4px;
+    background-color: #eab308;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 16px 20px;
+    color: #000;
+}
+.group-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 32px;
+    color: #f3f4f6;
+}
+.frame-parent11 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 223px;
+    text-align: left;
+    font-size: 16px;
+    color: #eab308;
+}
+.contact1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 96px 0px;
+    gap: 56px;
+    text-align: center;
+}
+.aboutme2 {
+    position: relative;
+}
+.frame-icon3 {
+    width: 24px;
+    position: relative;
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.frame-parent13 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+    padding-top: 50px;
+    padding-bottom: 200px;
+}
+.frame-parent12 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 56px 0px;
+    gap: 56px;
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+}
+.aboutme {
+    position: relative;
+    background-color: #020617;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+    font-size: 42px;
+    color: #f3f4f6;
+    font-family: 'Lexend Deca';
+}
+
